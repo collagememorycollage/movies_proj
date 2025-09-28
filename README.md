@@ -1,8 +1,16 @@
+АНАЛИЗ ФИЛЬМОВ
+(bin/movies.ipynb - файл с ноутбуком, который содержит информацию с анализом)
+
+Ответить на вопросы:
+1) Фильмы с наибольшем рейтингом
+2) Какие актеры чаще всего снимаются
+3) Как изменялись колв-во фильмов в странах в зависимости от года
+
+Сделать графики (seaborn / matplotlib / plotly)
+
 1) Скачиваем для начала данные
 
-#!/bin/bash
-curl -L -o ~/Downloads/kinopoisktop250russiandataset.zip\
-  https://www.kaggle.com/api/v1/datasets/download/alexandertesemnikov/kinopoisktop250russiandataset
+https://www.kaggle.com/api/v1/datasets/download/alexandertesemnikov/kinopoisktop250russiandataset
 
 2) Создаем окружение 
 
@@ -17,7 +25,7 @@ source activate
 pip install jupyter
 
 5) Запускаем jupyter-notebook
- jupyter-notebook
+jupyter-notebook
 
 6) В запустившемся окне вставляем токен и задаем пароль
 
@@ -32,16 +40,3 @@ pip install. wordcloud
 9) Установили matplotlib
 
 pip install matploylib
-
-Цель — научиться чистить данные, строить простую аналитику и визуализации.
-
-Анализ фильмов с IMDb или Кинопоиска
-
-Найти датасет с рейтингами фильмов
-
-Ответить на вопросы:
-1) жанры с наибольшим рейтингом
-2) какие актеры чаще всего снимаются в топ-10
-3) как изменялись тренды по годам
-
-Сделать графики (seaborn / matplotlib / plotly)
