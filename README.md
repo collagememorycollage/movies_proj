@@ -1,6 +1,8 @@
 АНАЛИЗ ФИЛЬМОВ
 (bin/movies.ipynb - файл с ноутбуком, который содержит информацию с анализом)
 
+https://github.com/collagememorycollage/movies_proj/blob/main/bin/movies.ipynb
+
 Ответить на вопросы:
 1) Фильмы с наибольшем рейтингом
 2) Какие актеры чаще всего снимаются
